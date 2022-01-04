@@ -32,6 +32,8 @@ inst_mem[0] = 32'h00201020;
 inst_mem[1] = 32'h00622022;
 inst_mem[2] = 32'h00A43025;
 inst_mem[3] = 32'h00E64024;
+inst_mem[4] = 32'h01004880;
+inst_mem[5] = 32'h012050C2;
 
 end
 

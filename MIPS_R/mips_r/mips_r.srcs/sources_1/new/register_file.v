@@ -44,6 +44,7 @@ reg_file[5] = 32'hA;
 reg_file[7] = 32'h8;
 
 
+
 end
 
 assign src1_data = reg_file[src1_addr];

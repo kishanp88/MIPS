@@ -22,9 +22,9 @@
 
 module r_mips_tb();
 reg clk, reset;
-wire [31:0] src1_data, write_data, src2_data;
+wire [31:0] src1_data, write_data, src2_data_w;
 
-r_mips r1(clk, reset, src1_data, src2_data, write_data);
+r_mips r1(clk, reset, src1_data, src2_data_w, write_data);
 
 initial clk = 0;
 always clk = #5 ~clk;
