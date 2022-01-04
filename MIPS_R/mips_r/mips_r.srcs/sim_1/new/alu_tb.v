@@ -29,7 +29,7 @@ alu a1(src1_data, src2_data, alu_function, write_data);
 
 initial
 begin
-   src1_data = 32'h542; src2_data = 32'h777;
+   src1_data = 32'h08; src2_data = 5'h02;
     #10 alu_function = 3'b000;
     #10 alu_function = 3'b001;
     #10 alu_function = 3'b010;

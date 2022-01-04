@@ -33,8 +33,8 @@ always @(*)
             3'b001: write_data = src1_data | src2_data;
             3'b010: write_data = src1_data + src2_data;
             3'b011: write_data = 32'h0;
-            3'b100: write_data = src1_data & (~src2_data);
-            3'b101: write_data = src1_data | (~src2_data);
+            3'b100: write_data = src1_data << src2_data;
+            3'b101: write_data = src1_data >> src2_data;
             3'b110: write_data = src1_data - src2_data;
             3'b111: write_data = (src1_data < src2_data)? 1:0;
             default: write_data = 32'h0;
