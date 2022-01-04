@@ -13,6 +13,7 @@ Compiling module xil_defaultlib.instruction_memory
 Compiling module xil_defaultlib.main_controller
 Compiling module xil_defaultlib.program_counter
 Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.mux_2_1_32bit
 Compiling module xil_defaultlib.r_mips
 Compiling module xil_defaultlib.r_mips_tb
 Compiling module xil_defaultlib.glbl
