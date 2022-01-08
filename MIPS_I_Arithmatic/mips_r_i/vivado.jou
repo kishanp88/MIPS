@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jan  8 17:52:48 2022
+# Process ID: 10332
+# Current directory: E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/MIPS_I_Arithmatic/mips_r_i
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22164 E:\STUDY\Books\Electronica\microcontrollers\BITS\Onukr Mutulu Computer Architecture\MIPS_local\MIPS\MIPS_I_Arithmatic\mips_r_i\mips_r_i.xpr
+# Log file: E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/MIPS_I_Arithmatic/mips_r_i/vivado.log
+# Journal file: E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/MIPS_I_Arithmatic/mips_r_i\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/MIPS_I_Arithmatic/mips_r_i/mips_r_i.xpr}
+update_compile_order -fileset sources_1
+close [ open {E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/MIPS_I_Arithmatic/mips_r_i/mips_r_i.srcs/sources_1/new/pc_adder.v} w ]
+add_files {{E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/MIPS_I_Arithmatic/mips_r_i/mips_r_i.srcs/sources_1/new/pc_adder.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source r_mips_tb.tcl
