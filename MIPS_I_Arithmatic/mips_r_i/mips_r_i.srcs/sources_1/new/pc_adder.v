@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 03.01.2022 14:25:03
+// Create Date: 08.01.2022 17:55:02
 // Design Name: 
-// Module Name: program_counter
+// Module Name: pc_adder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,20 +19,9 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+module pc_adder(pc_next, pc_input);
+input [31:0] pc_next;
+output [31:0] pc_input;
 
-module program_counter(clk, reset, pc_input, pc_next);
-input clk, reset;
-input [31:0] pc_input;
-output reg [31:0] pc_next;
-
-
-always @(posedge clk, posedge reset)
-begin
-       if(reset)
-       pc_next <= 32'h0;
-       else
-       pc_next <= pc_input;
-   
-end
-
+assign pc_input = pc_next + 32'h1;
 endmodule
