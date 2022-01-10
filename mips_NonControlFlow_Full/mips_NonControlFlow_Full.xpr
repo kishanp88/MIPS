@@ -31,7 +31,7 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="26"/>
+    <Option Name="WTXSimLaunchSim" Val="27"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -59,14 +59,14 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/alu.v">
+      <File Path="$PSRCDIR/sources_1/new/alu.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/alu_controller.v">
+      <File Path="$PSRCDIR/sources_1/new/alu_controller.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -80,63 +80,63 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/instruction_memory.v">
+      <File Path="$PSRCDIR/sources_1/new/instruction_memory.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/main_controller.v">
+      <File Path="$PSRCDIR/sources_1/new/main_controller.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/mux_2_1_32bit.v">
+      <File Path="$PSRCDIR/sources_1/new/mux_2_1_32bit.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/mux_2_1_5bit.v">
+      <File Path="$PSRCDIR/sources_1/new/mux_2_1_5bit.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/pc_adder.v">
+      <File Path="$PSRCDIR/sources_1/new/pc_adder.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/program_counter.v">
+      <File Path="$PSRCDIR/sources_1/new/program_counter.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/register_file.v">
+      <File Path="$PSRCDIR/sources_1/new/register_file.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/sign_extend_16_to_32_bit.v">
+      <File Path="$PSRCDIR/sources_1/new/sign_extend_16_to_32_bit.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sources_1/new/r_mips.v">
+      <File Path="$PSRCDIR/sources_1/new/r_mips.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -156,8 +156,16 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/r_mips_tb.v">
+      <File Path="$PSRCDIR/sim_1/new/r_mips_tb.v">
         <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/alu_controller_tb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -171,7 +179,14 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/register_file_tb.v">
+      <File Path="$PSRCDIR/sim_1/imports/mips/MIPS/mips_NonControlFlow_Full/r_mips_tb_behav1.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/r_mips_tb_behav1.wcfg"/>
+          <Attr Name="ImportTime" Val="1641807457"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/main_controller_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -179,7 +194,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/alu_controller_tb.v">
+      <File Path="$PSRCDIR/sim_1/new/mux_2_1_32bit_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -187,7 +202,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/alu_tb.v">
+      <File Path="$PSRCDIR/sim_1/new/instruction_mremory_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -195,7 +210,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/main_controller_tb.v">
+      <File Path="$PSRCDIR/sim_1/new/alu_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -203,7 +218,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/program_counter_tb.v">
+      <File Path="$PSRCDIR/sim_1/new/sign_extend_16_to_32_bit_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -211,7 +226,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/instruction_mremory_tb.v">
+      <File Path="$PSRCDIR/sim_1/new/program_counter_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -219,24 +234,11 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/sign_extend_16_to_32_bit_tb.v">
+      <File Path="$PSRCDIR/sim_1/new/register_file_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../../Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/mux_2_1_32bit_tb.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/r_mips_tb_behav1.wcfg">
-        <FileInfo>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
