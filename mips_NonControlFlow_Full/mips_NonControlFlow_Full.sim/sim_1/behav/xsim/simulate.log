@@ -1,3 +1,3 @@
 Vivado Simulator 2018.2
 Time resolution is 1 ps
-$finish called at time : 42 ns : File "D:/Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_NonControlFlow_Full/mips_NonControlFlow_Full.srcs/sim_1/new/data_memory_tb.v" Line 35
+$finish called at time : 240 ns : File "D:/Mips_workspace/MIPS/MIPS_Non_Control_Flow/mips_ncf/mips_r_i.srcs/sim_1/new/r_mips_tb.v" Line 44

@@ -22,10 +22,12 @@
 
 module data_memory_tb();
 reg [31:0] address, write_datamemory;
-reg memory_rden, memory_wren;
+reg memory_rden, memory_wren,clk;
 wire [31:0] read_datamemory;
 
 data_memory DM1 (address, write_datamemory, memory_rden, memory_wren, read_datamemory);
+
+always clk = #5 ~clk;
 
 initial
 begin
