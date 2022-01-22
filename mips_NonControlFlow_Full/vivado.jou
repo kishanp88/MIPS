@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jan 10 14:12:24 2022
+# Process ID: 15748
+# Current directory: D:/mips/MIPS/mips_NonControlFlow_Full
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13428 D:\mips\MIPS\mips_NonControlFlow_Full\mips_NonControlFlow_Full.xpr
+# Log file: D:/mips/MIPS/mips_NonControlFlow_Full/vivado.log
+# Journal file: D:/mips/MIPS/mips_NonControlFlow_Full\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/mips/MIPS/mips_NonControlFlow_Full/mips_NonControlFlow_Full.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top r_mips [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top r_mips_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source r_mips_tb.tcl
+close_sim
+launch_simulation
+source r_mips_tb.tcl
+save_wave_config {D:/mips/MIPS/mips_NonControlFlow_Full/r_mips_tb_behav1.wcfg}
+add_files -fileset sim_1 -norecurse D:/mips/MIPS/mips_NonControlFlow_Full/r_mips_tb_behav1.wcfg
+set_property xsim.view {D:/mips/MIPS/mips_NonControlFlow_Full/r_mips_tb_behav.wcfg D:/mips/MIPS/mips_NonControlFlow_Full/r_mips_tb_behav1.wcfg} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config D:/mips/MIPS/mips_NonControlFlow_Full/r_mips_tb_behav1.wcfg
+source r_mips_tb.tcl
+close_sim
+launch_simulation
+open_wave_config D:/mips/MIPS/mips_NonControlFlow_Full/r_mips_tb_behav1.wcfg
+source r_mips_tb.tcl
+close_sim
