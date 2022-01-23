@@ -121,3 +121,8 @@ xsim: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 730.14
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'r_mips_tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 730.145 ; gain = 31.914
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 750.172 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan  9 18:50:37 2022...

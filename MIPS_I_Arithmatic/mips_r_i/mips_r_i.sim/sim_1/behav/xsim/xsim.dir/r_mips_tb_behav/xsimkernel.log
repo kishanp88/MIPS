@@ -2,3 +2,6 @@ Running: xsim.dir/r_mips_tb_behav/xsimk.exe -simmode gui -wdb r_mips_tb_behav.wd
 Design successfully loaded
 Design Loading Memory Usage: 6264 KB (Peak: 6264 KB)
 Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6920 KB (Peak: 6920 KB)
+Simulation CPU Usage: 78 ms
