@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mips_NCF_Full_Byte_addrs.srcs/sources_1/new/instruction_memory.v" \
+"../../../../mips_NCF_Full_Byte_addrs.srcs/sim_1/new/instruction_mremory_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
