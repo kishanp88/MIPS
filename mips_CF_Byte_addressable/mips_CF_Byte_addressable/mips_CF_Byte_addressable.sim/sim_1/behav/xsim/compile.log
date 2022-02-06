@@ -10,7 +10,6 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/mips/MIPS/mips_CF_Byte_addressab
 INFO: [VRFC 10-311] analyzing module jump_address
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/mips/MIPS/mips_CF_Byte_addressable/mips_CF_Byte_addressable/mips_CF_Byte_addressable.srcs/sources_1/new/main_controller.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module main_controller
-WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [D:/mips/MIPS/mips_CF_Byte_addressable/mips_CF_Byte_addressable/mips_CF_Byte_addressable.srcs/sources_1/new/main_controller.v:28]
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/mips/MIPS/mips_CF_Byte_addressable/mips_CF_Byte_addressable/mips_CF_Byte_addressable.srcs/sources_1/new/mux_2_1_32bit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mux_2_1_32bit
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/mips/MIPS/mips_CF_Byte_addressable/mips_CF_Byte_addressable/mips_CF_Byte_addressable.srcs/sources_1/new/mux_2_1_5bit.v" into library xil_defaultlib

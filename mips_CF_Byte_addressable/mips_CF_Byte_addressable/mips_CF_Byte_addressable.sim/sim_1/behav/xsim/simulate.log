@@ -1,3 +1,3 @@
 Vivado Simulator 2018.2
 Time resolution is 1 ps
-$finish called at time : 240 ns : File "D:/mips/MIPS/mips_CF_Byte_addressable/mips_CF_Byte_addressable/mips_CF_Byte_addressable.srcs/sim_1/new/r_mips_tb.v" Line 46
+$finish called at time : 340 ns : File "D:/mips/MIPS/mips_CF_Byte_addressable/mips_CF_Byte_addressable/mips_CF_Byte_addressable.srcs/sim_1/new/r_mips_tb.v" Line 46

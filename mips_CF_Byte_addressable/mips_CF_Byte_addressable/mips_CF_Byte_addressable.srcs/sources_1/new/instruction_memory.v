@@ -63,9 +63,9 @@ begin
  
 {inst_mem[67],inst_mem[66],inst_mem[65],inst_mem[64]} = 32'h36B60000; //ORI R22, R21, #0
 
-{inst_mem[71],inst_mem[70],inst_mem[69],inst_mem[68]} = 32'h08000014; // J 3
+{inst_mem[71],inst_mem[70],inst_mem[69],inst_mem[68]} = 32'h08000014; // J 20 i.e 80
 {inst_mem[83],inst_mem[82],inst_mem[81],inst_mem[80]} = 32'h36B60000; //ORI R22, R21, #0
-
+{inst_mem[87],inst_mem[86],inst_mem[85],inst_mem[84]} = 32'h02E00008; //JR R23 (6TH INSTRUCTION)
 
 end
 

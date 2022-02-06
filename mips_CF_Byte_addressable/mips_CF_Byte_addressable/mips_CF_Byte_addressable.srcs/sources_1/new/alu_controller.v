@@ -20,19 +20,19 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module alu_controller(aluen, funct, alu_opcode, alu_function, is_shamt);
+module alu_controller(aluen, funct, alu_opcode, alu_function, is_shamt,is_JType,is_JRType);
 input aluen;
 input [5:0] funct, alu_opcode;
 output reg [2:0] alu_function;
-output reg is_shamt;
+output reg is_shamt,is_JType,is_JRType;
 parameter ADD = 6'h20, AND = 6'h24, OR = 6'h25, SUB = 6'h22, LEFT_SHIFT = 6'h00, RIGHT_SHIFT = 6'h02,
-ADDI = 6'h8, ANDI = 6'hC, ORI = 6'hD, LWI = 6'h23, SWI = 6'h2b;
+ADDI = 6'h8, ANDI = 6'hC, ORI = 6'hD, LWI = 6'h23, SWI = 6'h2b, J = 6'h02, JR = 6'h08 , RType = 6'h00;
 
 always @(*)
 begin
     if(aluen)
     begin
-    if(alu_opcode == 6'h0)
+    if(alu_opcode == RType)
     begin
         case (funct)
             ADD: alu_function = 3'b010;
@@ -68,4 +68,30 @@ end
 else 
 is_shamt = 0;
 end
+
+
+always @(*)
+begin
+if(alu_opcode == J)
+begin
+  is_JType <= 1;
+  is_JRType <= 0;
+end
+
+
+else if(alu_opcode == RType && funct == JR )
+begin
+  is_JType <= 1;
+  is_JRType <= 1;
+end
+
+else
+begin
+  is_JType <= 0;
+  is_JRType <= 0;
+end
+end
+
 endmodule
+
+
