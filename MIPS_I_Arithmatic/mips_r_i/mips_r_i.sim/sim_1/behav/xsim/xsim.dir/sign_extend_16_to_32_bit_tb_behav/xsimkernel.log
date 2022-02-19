@@ -1,0 +1,7 @@
+Running: xsim.dir/sign_extend_16_to_32_bit_tb_behav/xsimk.exe -simmode gui -wdb sign_extend_16_to_32_bit_tb_behav.wdb -simrunnum 0 -socket 31152
+Design successfully loaded
+Design Loading Memory Usage: 5784 KB (Peak: 5784 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6412 KB (Peak: 6412 KB)
+Simulation CPU Usage: 218 ms

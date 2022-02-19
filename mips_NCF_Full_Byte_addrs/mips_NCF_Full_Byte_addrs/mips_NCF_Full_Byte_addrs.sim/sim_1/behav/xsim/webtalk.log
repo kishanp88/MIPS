@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jan 24 18:14:05 2022
+# Process ID: 13168
+# Current directory: E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/mips_NCF_Full_Byte_addrs/mips_NCF_Full_Byte_addrs/mips_NCF_Full_Byte_addrs.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/mips_NCF_Full_Byte_addrs/mips_NCF_Full_Byte_addrs/mips_NCF_Full_Byte_addrs.sim/sim_1/behav/xsim/xsim.dir/r_mips_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/mips_NCF_Full_Byte_addrs/mips_NCF_Full_Byte_addrs/mips_NCF_Full_Byte_addrs.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr Mutulu Computer Architecture/MIPS_local/MIPS/mips_NCF_Full_Byte_addrs/mips_NCF_Full_Byte_addrs/mips_NCF_Full_Byte_addrs.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr -notrace
+couldn't read file "E:/STUDY/Books/Electronica/microcontrollers/BITS/Onukr": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon Jan 24 18:14:05 2022...
