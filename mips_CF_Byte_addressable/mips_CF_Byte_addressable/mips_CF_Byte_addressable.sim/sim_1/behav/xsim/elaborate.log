@@ -1,6 +1,6 @@
-Vivado Simulator 2018.2
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d13e5c06eb034fa395bc83a9b267ab81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot r_mips_tb_behav xil_defaultlib.r_mips_tb xil_defaultlib.glbl -log elaborate.log 
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d13e5c06eb034fa395bc83a9b267ab81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot r_mips_tb_behav xil_defaultlib.r_mips_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -19,6 +19,7 @@ Compiling module xil_defaultlib.mux_2_1_5bit
 Compiling module xil_defaultlib.pc_adder
 Compiling module xil_defaultlib.data_memory
 Compiling module xil_defaultlib.jump_address
+Compiling module xil_defaultlib.branch_address_adder
 Compiling module xil_defaultlib.r_mips
 Compiling module xil_defaultlib.r_mips_tb
 Compiling module xil_defaultlib.glbl

@@ -30,10 +30,12 @@ wire is_load_w;
 wire is_store_w;
 wire [31:0] src2_data,pc_next_w,is_JROut_w;
 wire [31:0] read_datamemory_w;
-wire wren_w;
+wire wren_w, is_branch_eq, is_branch_neq;
 wire is_JType_w,is_JRType_w;
 
-r_mips r1(clk, reset, src1_data, alu_in2, write_data, src_immediate_w, immediate_w, is_IType_w, instruction_w, alu_function_w, alu_opcode_w, is_load_w, is_store_w, read_datamemory_w, src2_data, wren_w, is_JType_w,is_JRType_w ,pc_next_w,is_JROut_w);
+r_mips r1(clk, reset, src1_data, alu_in2, write_data, src_immediate_w, immediate_w, is_IType_w, 
+instruction_w, alu_function_w, alu_opcode_w, is_load_w, is_store_w, read_datamemory_w, src2_data, 
+wren_w, is_JType_w,is_JRType_w ,pc_next_w,is_JROut_w, is_branch_eq, is_branch_neq);
 
 initial clk = 0;
 always clk = #5 ~clk;
