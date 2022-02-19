@@ -20,11 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module alu(src1_data, src2_data, alu_function, write_data);
+module alu(src1_data, src2_data, alu_function, write_data, zero_flag);
 
 input [31:0] src1_data, src2_data;
 input [2:0] alu_function;
 output reg [31:0] write_data;
+output reg zero_flag;
+
 
 always @(*)
     begin
@@ -38,6 +40,7 @@ always @(*)
             3'b110: write_data = src1_data - src2_data;
             3'b111: write_data = (src1_data < src2_data)? 1:0;
             default: write_data = 32'h0;
-        endcase
+        endcase 
+        zero_flag  = (write_data == 32'd0)? 1:0;
     end    
 endmodule

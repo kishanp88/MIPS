@@ -24,7 +24,7 @@ module instruction_memory(pc_next, instruction);
 
 input [31:0] pc_next;
 output [31:0] instruction;
-parameter DEPTH = 100;
+parameter DEPTH = 200;
 reg [7:0] inst_mem [DEPTH:0];
 initial
 begin
@@ -65,7 +65,14 @@ begin
 
 {inst_mem[71],inst_mem[70],inst_mem[69],inst_mem[68]} = 32'h08000014; // J 20 i.e 80
 {inst_mem[83],inst_mem[82],inst_mem[81],inst_mem[80]} = 32'h36B60000; //ORI R22, R21, #0
-{inst_mem[87],inst_mem[86],inst_mem[85],inst_mem[84]} = 32'h02E00008; //JR R23 (6TH INSTRUCTION)
+
+{inst_mem[87],inst_mem[86],inst_mem[85],inst_mem[84]} = 32'h12F80005; //BEQ R23, R24, #5
+{inst_mem[111],inst_mem[110],inst_mem[109],inst_mem[108]} = 32'h36B60000; //ORI R22, R21, #0
+
+{inst_mem[115],inst_mem[114],inst_mem[113],inst_mem[112]} = 32'h17190004; // BNEQ R24, R25, #4
+{inst_mem[135],inst_mem[134],inst_mem[133],inst_mem[132]} = 32'h36B60000; //ORI R22, R21, #0
+
+//{inst_mem[87],inst_mem[86],inst_mem[85],inst_mem[84]} = 32'h02E00008; //JR R23 (6TH INSTRUCTION)
 
 end
 

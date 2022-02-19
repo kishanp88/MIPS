@@ -26,7 +26,8 @@ input [5:0] funct, alu_opcode;
 output reg [2:0] alu_function;
 output reg is_shamt,is_JType,is_JRType;
 parameter ADD = 6'h20, AND = 6'h24, OR = 6'h25, SUB = 6'h22, LEFT_SHIFT = 6'h00, RIGHT_SHIFT = 6'h02,
-ADDI = 6'h8, ANDI = 6'hC, ORI = 6'hD, LWI = 6'h23, SWI = 6'h2b, J = 6'h02, JR = 6'h08 , RType = 6'h00;
+ADDI = 6'h8, ANDI = 6'hC, ORI = 6'hD, LWI = 6'h23, SWI = 6'h2b, J = 6'h02, JR = 6'h08 , RType = 6'h00,
+BEQ =6'h4, BNEQ = 6'h5;
 
 always @(*)
 begin
@@ -51,6 +52,8 @@ begin
             ORI: alu_function = 3'b001;
             LWI: alu_function = 3'b010;
             SWI: alu_function = 3'b010;
+            BEQ: alu_function = 3'b110;
+            BNEQ: alu_function = 3'b110;
         endcase
      end
     end
